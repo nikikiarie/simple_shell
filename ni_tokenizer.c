@@ -29,6 +29,7 @@ void ni_tokenizer(char *cm, char *d)
 		}
 		else
 			break;
+		tkn = ni_strtok(NULL, d);
 	}
 	a[i] = NULL;
 	ni_exec(a);
