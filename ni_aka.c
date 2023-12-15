@@ -52,7 +52,7 @@ void ni_handleaka(char *b)
 	char v[MAX_A_VALUE];
 	struct aka a[MAX_A_COUNT];
 
-	if (ni_strl(b) == 5)
+	if (ni_strlen(b) == 5)
 	{
 		ni_printaka();
 		return;
