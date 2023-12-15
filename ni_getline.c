@@ -79,7 +79,7 @@ char *ni_line(char *l, int *i, int s)
 	int a = s + BUFFER_SIZE;
 
 	n = malloc(a);
-	if (!a)
+	if (!n)
 	{
 		perror("malloc");
 		exit(EXIT_FAILURE);
